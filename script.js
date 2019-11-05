@@ -3,6 +3,7 @@ window.addEventListener("load",function() {
   //constants
     var GAME_WIDTH = 725;
     var GAME_HEIGHT = 375;
+    var myMusic;
 
 
   //keep the game going
@@ -803,6 +804,7 @@ window.addEventListener("load",function() {
   function startGame() {
     document.getElementById("game").style.display = "block";
     document.getElementById("landing").style.display = "none";
+    myMusic = new sound("./Pixel Car Racer - Engine sounds.mp3");
+    myMusic.play();
+    canvas.start();
   }
-
-

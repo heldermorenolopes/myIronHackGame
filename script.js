@@ -65,10 +65,10 @@ window.addEventListener("load",function() {
 
   //the goal object
     var goal = {
-      x: 700,
-      y: 160,
-      w: 50,
-      h: 36
+      x: 715,
+      y: 155,
+      w: 2,
+      h: 65
     }
 
       var sprites = {};
@@ -100,7 +100,7 @@ window.addEventListener("load",function() {
     //check if you've won the game
       if(checkCollision(player, goal)) {
     
-        alert('Win !');
+        alert('5 stars rating, you Win!');
         level += 1;
         life += 1;
         player.speedX += 1;
@@ -135,7 +135,7 @@ window.addEventListener("load",function() {
             //stop the game
             if(life === 0){
                 
-                alert('Game Over');
+                alert('0 stars rating, you lost!');
                 
                 for(var ab = 0; ab < enemies.length; ab++){
                     
@@ -684,6 +684,7 @@ window.addEventListener("load",function() {
             ctx.drawImage(sideWalkRoundBottom, 150, 125, 25, 25);
 
 
+
       //Draw the grass   
         let grassMiddle = new Image();
         grassMiddle.src = "./images/grassMiddle_tile_0028.png";
@@ -704,37 +705,178 @@ window.addEventListener("load",function() {
         ctx.drawImage(grassMiddle, 50, 50, 25, 25);
         ctx.drawImage(grassMiddle, 50, 75, 25, 25);
         ctx.drawImage(grassMiddle, 50, 100, 25, 25);
-        
 
-      
+
+
+        ctx.drawImage(grassMiddle, 250, 0, 25, 25);
+        ctx.drawImage(grassMiddle, 250, 25, 25, 25);
+        ctx.drawImage(grassMiddle, 250, 50, 25, 25);
+        ctx.drawImage(grassMiddle, 250, 75, 25, 25);
+        ctx.drawImage(grassMiddle, 250, 100, 25, 25);
+
+        ctx.drawImage(grassMiddle, 275, 0, 25, 25);
+        ctx.drawImage(grassMiddle, 275, 25, 25, 25);
+        ctx.drawImage(grassMiddle, 275, 50, 25, 25);
+        ctx.drawImage(grassMiddle, 275, 75, 25, 25);
+        ctx.drawImage(grassMiddle, 275, 100, 25, 25);
+
+        ctx.drawImage(grassMiddle, 300, 0, 25, 25);
+        ctx.drawImage(grassMiddle, 300, 25, 25, 25);
+        ctx.drawImage(grassMiddle, 300, 50, 25, 25);
+        ctx.drawImage(grassMiddle, 300, 75, 25, 25);
+        ctx.drawImage(grassMiddle, 300, 100, 25, 25);
+
+
+        ctx.drawImage(grassMiddle, 250, 250, 25, 25);
+        ctx.drawImage(grassMiddle, 250, 275, 25, 25);
+        ctx.drawImage(grassMiddle, 250, 300, 25, 25);
+        ctx.drawImage(grassMiddle, 250, 325, 25, 25);
+        ctx.drawImage(grassMiddle, 250, 350, 25, 25);
+
+        ctx.drawImage(grassMiddle, 275, 250, 25, 25);
+        ctx.drawImage(grassMiddle, 275, 275, 25, 25);
+        ctx.drawImage(grassMiddle, 275, 300, 25, 25);
+        ctx.drawImage(grassMiddle, 275, 325, 25, 25);
+        ctx.drawImage(grassMiddle, 275, 350, 25, 25);
+
+        ctx.drawImage(grassMiddle, 300, 250, 25, 25);
+        ctx.drawImage(grassMiddle, 300, 275, 25, 25);
+        ctx.drawImage(grassMiddle, 300, 300, 25, 25);
+        ctx.drawImage(grassMiddle, 300, 325, 25, 25);
+        ctx.drawImage(grassMiddle, 300, 350, 25, 25);
+
+
+
+        ctx.drawImage(grassMiddle, 450, 0, 25, 25);
+        ctx.drawImage(grassMiddle, 450, 25, 25, 25);
+        ctx.drawImage(grassMiddle, 450, 50, 25, 25);
+        ctx.drawImage(grassMiddle, 450, 75, 25, 25);
+        ctx.drawImage(grassMiddle, 450, 100, 25, 25);
+
+        ctx.drawImage(grassMiddle, 475, 0, 25, 25);
+        ctx.drawImage(grassMiddle, 475, 25, 25, 25);
+        ctx.drawImage(grassMiddle, 475, 50, 25, 25);
+        ctx.drawImage(grassMiddle, 475, 75, 25, 25);
+        ctx.drawImage(grassMiddle, 475, 100, 25, 25);
+
+        ctx.drawImage(grassMiddle, 500, 0, 25, 25);
+        ctx.drawImage(grassMiddle, 500, 25, 25, 25);
+        ctx.drawImage(grassMiddle, 500, 50, 25, 25);
+        ctx.drawImage(grassMiddle, 500, 75, 25, 25);
+        ctx.drawImage(grassMiddle, 500, 100, 25, 25);
+
+        ctx.drawImage(grassMiddle, 525, 0, 25, 25);
+        ctx.drawImage(grassMiddle, 525, 25, 25, 25);
+        ctx.drawImage(grassMiddle, 525, 50, 25, 25);
+        ctx.drawImage(grassMiddle, 525, 75, 25, 25);
+        ctx.drawImage(grassMiddle, 525, 100, 25, 25);
+
+
+        ctx.drawImage(grassMiddle, 450, 250, 25, 25);
+        ctx.drawImage(grassMiddle, 450, 275, 25, 25);
+        ctx.drawImage(grassMiddle, 450, 300, 25, 25);
+        ctx.drawImage(grassMiddle, 450, 325, 25, 25);
+        ctx.drawImage(grassMiddle, 450, 350, 25, 25);
+
+        ctx.drawImage(grassMiddle, 475, 250, 25, 25);
+        ctx.drawImage(grassMiddle, 475, 275, 25, 25);
+        ctx.drawImage(grassMiddle, 475, 300, 25, 25);
+        ctx.drawImage(grassMiddle, 475, 325, 25, 25);
+        ctx.drawImage(grassMiddle, 475, 350, 25, 25);
+
+        ctx.drawImage(grassMiddle, 500, 250, 25, 25);
+        ctx.drawImage(grassMiddle, 500, 275, 25, 25);
+        ctx.drawImage(grassMiddle, 500, 300, 25, 25);
+        ctx.drawImage(grassMiddle, 500, 325, 25, 25);
+        ctx.drawImage(grassMiddle, 500, 350, 25, 25);
+
+        ctx.drawImage(grassMiddle, 525, 250, 25, 25);
+        ctx.drawImage(grassMiddle, 525, 275, 25, 25);
+        ctx.drawImage(grassMiddle, 525, 300, 25, 25);
+        ctx.drawImage(grassMiddle, 525, 325, 25, 25);
+        ctx.drawImage(grassMiddle, 525, 350, 25, 25);
+
+
+
+        ctx.drawImage(grassMiddle, 650, 0, 25, 25);
+        ctx.drawImage(grassMiddle, 650, 25, 25, 25);
+        ctx.drawImage(grassMiddle, 650, 50, 25, 25);
+        ctx.drawImage(grassMiddle, 650, 75, 25, 25);
+        ctx.drawImage(grassMiddle, 650, 100, 25, 25);
+
+        ctx.drawImage(grassMiddle, 675, 0, 25, 25);
+        ctx.drawImage(grassMiddle, 675, 25, 25, 25);
+        ctx.drawImage(grassMiddle, 675, 50, 25, 25);
+        ctx.drawImage(grassMiddle, 675, 75, 25, 25);
+        ctx.drawImage(grassMiddle, 675, 100, 25, 25);
+
+        ctx.drawImage(grassMiddle, 700, 0, 25, 25);
+        ctx.drawImage(grassMiddle, 700, 25, 25, 25);
+        ctx.drawImage(grassMiddle, 700, 50, 25, 25);
+        ctx.drawImage(grassMiddle, 700, 75, 25, 25);
+        ctx.drawImage(grassMiddle, 700, 100, 25, 25);
+
+
+        ctx.drawImage(grassMiddle, 650, 250, 25, 25);
+        ctx.drawImage(grassMiddle, 650, 275, 25, 25);
+        ctx.drawImage(grassMiddle, 650, 300, 25, 25);
+        ctx.drawImage(grassMiddle, 650, 325, 25, 25);
+        ctx.drawImage(grassMiddle, 650, 350, 25, 25);
+
+        ctx.drawImage(grassMiddle, 675, 250, 25, 25);
+        ctx.drawImage(grassMiddle, 675, 275, 25, 25);
+        ctx.drawImage(grassMiddle, 675, 300, 25, 25);
+        ctx.drawImage(grassMiddle, 675, 325, 25, 25);
+        ctx.drawImage(grassMiddle, 675, 350, 25, 25);
+
+        ctx.drawImage(grassMiddle, 700, 250, 25, 25);
+        ctx.drawImage(grassMiddle, 700, 275, 25, 25);
+        ctx.drawImage(grassMiddle, 700, 300, 25, 25);
+        ctx.drawImage(grassMiddle, 700, 325, 25, 25);
+        ctx.drawImage(grassMiddle, 700, 350, 25, 25);
+
 
 
       // draw buildings
         let buildingCornerLeft = new Image();
         buildingCornerLeft.src = "./images/tile_0081.png";
-        ctx.drawImage(buildingCornerLeft, 0, 250, 25, 25);
+        //ctx.drawImage(buildingCornerLeft, 0, 250, 25, 25);
 
         let building = new Image();
         building.src = "./images/tile_0082.png";
+        ctx.drawImage(building, 0, 250, 25, 25);
         ctx.drawImage(building, 25, 250, 25, 25);
+
 
         let buildingCornerRight = new Image();
         buildingCornerRight.src = "./images/tile_0083.png";
         ctx.drawImage(buildingCornerRight, 50, 250, 25, 25);
 
+
         let buildingRight = new Image();
         buildingRight.src = "./images/tile_0110.png";
         ctx.drawImage(buildingRight, 50, 275, 25, 25);
         ctx.drawImage(buildingRight, 50, 300, 25, 25);
+        ctx.drawImage(buildingRight, 50, 325, 25, 25);
+        ctx.drawImage(buildingRight, 50, 350, 25, 25);
+
 
         let buildingRight1 = new Image();
         buildingRight1.src = "./images/tile_0137.png";
-        ctx.drawImage(buildingRight1, 50, 325, 25, 25);
+        // ctx.drawImage(buildingRight1, 50, 325, 25, 25);
+
+
+        let buildingMiddle = new Image();
+        buildingMiddle.src = "./images/tile_0109.png";
+        ctx.drawImage(buildingMiddle, 0, 275, 25, 25);
+        ctx.drawImage(buildingMiddle, 0, 300, 25, 25);
+        ctx.drawImage(buildingMiddle, 0, 325, 25, 25);
+        ctx.drawImage(buildingMiddle, 0, 350, 25, 25);
+        ctx.drawImage(buildingMiddle, 25, 275, 25, 25);
+        ctx.drawImage(buildingMiddle, 25, 300, 25, 25);
+        ctx.drawImage(buildingMiddle, 25, 325, 25, 25);
+        ctx.drawImage(buildingMiddle, 25, 350, 25, 25);
         
-
-
-        
-
 
 
     //draw level
@@ -750,14 +892,14 @@ window.addEventListener("load",function() {
         ctx.fillRect(player.x, player.y, player.w, player.h);
         ctx.translate(0,0);
         let image = new Image();
-        image.src = "./images/player.png";
+        image.src = "./images/uber.png";
         ctx.drawImage(image, player.x, player.y, player.w, player.h);
 
 
     //draw enemies aka the police
         // ctx.fillStyle = "rgb(255,120,70)";
         let police = new Image();
-        police.src = "./images/police.png";
+        police.src = "./images/taxi.png";
         enemies.forEach(function(element, index){
           ctx.fillStyle = "rgb(255,120,70)";  
         //  ctx.fillRect(element.x, element.y, element.w, element.h);
@@ -770,10 +912,10 @@ window.addEventListener("load",function() {
         
 
     //draw goal
-        ctx.fillStyle = "rgb(0,255,120)";
+        ctx.fillStyle = "#ffff00"; //rgb(0,255,120);
         ctx.fillRect(goal.x, goal.y, goal.w, goal.h);
-        ctx.fillStyle = "rgb(0,0,0)";
-        ctx.fillText("Goal", goal.x + 7, goal.y + 25);
+        //ctx.fillStyle = "rgb(0,0,0)";
+        //ctx.fillText("Goal", goal.x + 7, goal.y + 25);
       };
 
 

@@ -4,15 +4,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <script type="text/javascript" src="script.js"></script>
+  
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1 class="title">MyIronHackGame</h1>
+  <h1 class="title">Small Teft Auto</h1>
+  
   <section id="game" style="display: none;">
+    <canvas id="mycanvas" class="canvas" width="725" height="375" ></canvas>
     <p class="instruction">Left-Click on Canvas to move your player. Try to reach the goal without being caught by the enemies</p>
-    <canvas id="mycanvas" class="canvas" width="640" height="360" ></canvas>
   </section>
+
   <section id="landing">
     <div>
       Welcome to my game!
@@ -21,5 +23,8 @@
       <button onclick="startGame()">Start game</button>
     </div>
   </section>
+
 </body>
+  <script type="text/javascript" src="/scriptBackground.js"></script>
+  <script type="text/javascript" src="script.js"></script>
 </html>

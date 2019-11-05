@@ -942,6 +942,7 @@ window.addEventListener("load",function() {
       step();
 });
 
+
 //To start the game
   function startGame() {
     document.getElementById("game").style.display = "block";

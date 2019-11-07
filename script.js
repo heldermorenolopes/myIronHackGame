@@ -5,6 +5,12 @@ window.addEventListener("load",function() {
     var GAME_HEIGHT = 375;
     var myMusic;
 
+    let image = new Image();
+    image.src = "./images/uber.png";
+
+    let police = new Image();
+    police.src = "./images/taxi.png";
+
 
   //keep the game going
     var gameLive = true;
@@ -891,15 +897,12 @@ window.addEventListener("load",function() {
         ctx.fillStyle = "#ffffff00" //color;
         ctx.fillRect(player.x, player.y, player.w, player.h);
         ctx.translate(0,0);
-        let image = new Image();
-        image.src = "./images/uber.png";
         ctx.drawImage(image, player.x, player.y, player.w, player.h);
 
 
     //draw enemies aka the police
         // ctx.fillStyle = "rgb(255,120,70)";
-        let police = new Image();
-        police.src = "./images/taxi.png";
+        
         enemies.forEach(function(element, index){
           ctx.fillStyle = "rgb(255,120,70)";  
         //  ctx.fillRect(element.x, element.y, element.w, element.h);

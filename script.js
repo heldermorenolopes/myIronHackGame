@@ -6,10 +6,10 @@ window.addEventListener("load",function() {
     var myMusic;
 
     let image = new Image();
-    image.src = "./images/uber.png";
+    image.src = "./images/Uber.png";
 
     let police = new Image();
-    police.src = "./images/taxi.png";
+    police.src = "./images/Taxi.png";
 
 
   //keep the game going
